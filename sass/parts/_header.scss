@@ -320,6 +320,13 @@ $header-height: 30px;
 			&:hover{
 				opacity: 1;
 			}
+      &.appdotnet{
+        background: image-url('social/adn.png') center no-repeat #90ee90;
+        border: 1px solid #90ee90;
+        &:hover{
+          border: 1px solid darken(#90ee90, 10%);
+        }
+      }
 			&.facebook{
 				background: image-url('social/facebook.png') center no-repeat #3B5998;
 				border: 1px solid #3B5998;
